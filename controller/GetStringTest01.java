@@ -17,8 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class GetStringTest01 {
 
     @GetMapping
-    public String getAnime(){
+    public String getAnime(Object o){
         System.out.println("SAO >> 刀剑神域...");
+        System.out.println(o.toString());
         return "SAO >> 刀剑神域...";
     }
 
