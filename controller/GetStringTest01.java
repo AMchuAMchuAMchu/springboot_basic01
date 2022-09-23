@@ -21,6 +21,7 @@ public class GetStringTest01 {
         System.out.println("SAO >> 刀剑神域...");
         System.out.println(o.toString());
         return "SAO >> 刀剑神域...";
+
     }
 
 }
